@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* carousel slider */
+.carousel-item{
+    height: 93vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover ;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.carousel-caption h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    top: 2rem;
+}
+
+/* signin buttons */
+#user-signin, #doctor-signin{
+    border: none;
+    color: black;
+}
+
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* user dashboard */
+#userName{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+/* doctor dashboard */
+#doctorName{
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  font-size: large;
+  font-weight: 700;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.height {
+    height: 30vh
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue
+}
+
+
+.fc-title{
+    font-size: 20px;
+  }

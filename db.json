@@ -1,0 +1,213 @@
+{
+  "users": [
+    {
+      "firstName": "Vikas",
+      "lastName": "Khade",
+      "dob": "2022-02-10",
+      "email": "vikas@gmail.com",
+      "contact": "7972098908",
+      "city": "Nagpur",
+      "Gender": "male",
+      "password": "vikas@1234",
+      "id": 7
+    },
+    {
+      "firstName": "Sayali",
+      "lastName": "jadhav",
+      "dob": "2022-02-04",
+      "email": "sayali@gmail.com",
+      "contact": "79720986456",
+      "city": "BHANDARA",
+      "Gender": "female",
+      "password": "sayali@1234",
+      "id": 8
+    },
+    {
+      "firstName": "Sushma",
+      "lastName": "Jagadale",
+      "dob": "2022-02-02",
+      "email": "sush@gmail.com",
+      "contact": "9078563423",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "sush1234",
+      "id": 9
+    },
+    {
+      "firstName": "Tejal",
+      "lastName": "Magar",
+      "dob": "2022-01-24",
+      "email": "tejal@gmail.com",
+      "contact": "9078563423",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "teja1234",
+      "id": 10
+    },
+    {
+      "firstName": "Tejal",
+      "lastName": "Magar",
+      "dob": "2022-01-24",
+      "email": "tejal@gmail.com",
+      "contact": "9078563423",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "teja1234",
+      "id": 11
+    },
+    {
+      "firstName": "Punam",
+      "lastName": "GIte",
+      "dob": "2022-02-26",
+      "email": "punam@gmail.com",
+      "contact": "9078563423",
+      "city": "Pune",
+      "Gender": "Female",
+      "password": "punam",
+      "id": 12
+    },
+    {
+      "firstName": "Sushma",
+      "lastName": "Jagadale",
+      "dob": "2022-02-28",
+      "email": "punam@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 13
+    },
+    {
+      "firstName": "Sushma",
+      "lastName": "GIte",
+      "dob": "2022-02-18",
+      "email": "punam@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 14
+    },
+    {
+      "firstName": "Sushma",
+      "lastName": "GIte",
+      "dob": "2022-02-18",
+      "email": "punam@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 15
+    },
+    {
+      "firstName": "Sweety",
+      "lastName": "Jadhav",
+      "dob": "2022-02-25",
+      "email": "sweety@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 16
+    },
+    {
+      "firstName": "Sweety",
+      "lastName": "Jadhav",
+      "dob": "2022-02-25",
+      "email": "sweety@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "firstName": "dipu",
+      "lastName": "Jagadale",
+      "dob": "2022-02-26",
+      "email": "sneha@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "Female",
+      "password": "1234",
+      "id": 18
+    },
+    {
+      "firstName": "Mohit",
+      "lastName": "Magar",
+      "dob": "2022-02-26",
+      "email": "mohit@gmail.com",
+      "contact": "9078563423",
+      "city": "Mumbai",
+      "Gender": "male",
+      "password": "1234",
+      "id": 19
+    }
+  ],
+  "doctor": [
+    {
+      "id": 1,
+      "firstName": "Sneha",
+      "lastName": "Jadhav",
+      "Gender": "female",
+      "email": "snehajad@cybage.com",
+      "password": "sneha1234",
+      "availability": "true",
+      "speciality": "Dermatologist",
+      "eductaion": "BAMS",
+      "appointments[0][userName]": "Sayali jadhav",
+      "appointments[0][startDate]": "2022-02-10T10:41",
+      "appointments[0][endDate]": "2022-02-10T10:41"
+    },
+    {
+      "id": 2,
+      "firstName": "Akshay",
+      "lastName": "Mankar",
+      "Gender": "male",
+      "email": "akshaymank@cybage.com",
+      "password": "akshay1234",
+      "availability": "true",
+      "speciality": "Cardiologist",
+      "eductaion": "BHMS",
+      "appointments[0][userName]": "Vikas Khade",
+      "appointments[0][startDate]": "2022-02-11T10:40",
+      "appointments[0][endDate]": "2022-02-11T10:40"
+    },
+    {
+      "id": 3,
+      "firstName": "Yogyashri",
+      "lastName": "Chine",
+      "Gender": "female",
+      "email": "yogyashric@cybage.com",
+      "password": "yogyashri1234",
+      "availability": true,
+      "speciality": "Surgen",
+      "eductaion": "MBBS",
+      "appointments": [
+        {
+          "userName": "",
+          "startDate": "",
+          "endDate": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Varun",
+      "lastName": "Patle",
+      "Gender": "male",
+      "email": "varunpa@cybage.com",
+      "password": "varun1234",
+      "availability": true,
+      "speciality": "Dentist",
+      "eductaion": "BDS",
+      "appointments": [
+        {
+          "userName": "",
+          "startDate": "",
+          "endDate": ""
+        }
+      ]
+    }
+  ]
+}
